@@ -3,14 +3,16 @@ from ListaDuplamenteEncadeada import ListaDuplamenteEncadeada
 lista = ListaDuplamenteEncadeada()
 
 lista.imprimir()
+lista.add("Jonatas")
+lista.add("Adalto")
+lista.add("Guilherme")
+lista.add("Sarah")
+lista.add("Pedro")
 
-lista.add("Roberto")
-lista.add("Henrique")
-lista.add("Estela")
-lista.add("Gabriel")
-
-lista.remover("Adalto")
+lista.imprimirReverso()
 lista.remover("João")
-lista.remover("Maria")
+lista.remover("Guilherme")
+lista.remover("Adalto")
+lista.remover("Sarah")
 
 lista.imprimirReverso()

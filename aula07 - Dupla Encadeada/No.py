@@ -1,5 +1,5 @@
 class No:
-	def __init__(self, valor):
-		self.dado = valor
-		self.anterior = None
-		self.proximo = None
+    def __init__(self, valor):
+        self.dado = valor
+        self.ant = None
+        self.prox = None
